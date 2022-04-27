@@ -1,5 +1,8 @@
 [core]
     analytics = false
     remote = remote_storage
+[cache]
+    dir = /home/andrea_policarpi/Desktop/dvc_shared_cache
+    type = symlink
 ['remote "remote_storage"']
     url = /home/andrea_policarpi/Desktop/dvc_remote
